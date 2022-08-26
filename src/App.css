@@ -1,0 +1,117 @@
+.App {
+  text-align: center;
+}
+.search-box{
+  margin: 20px;
+}
+.search-box input{
+  width: 400px;
+  height: 40px;
+  align-items: center;
+}
+
+.main-nav{
+  background-color: darkgray;
+  display: flex;
+  justify-content: center;
+ justify-content: space-around;
+ padding: 15px;
+  
+}
+.nav-item Link{
+  font-weight: bolder;
+
+}
+.nav-item:hover{
+  flood-color: blue;
+}
+.grid{
+  display: grid;
+  gap: 3rem;
+}
+.grid-4-col{
+  grid-template-columns: repeat(4 , 1fr);
+}
+.card{
+  border: 1px solid black;
+  width: 20rem;
+  max-width: 30rem;
+  max-height: 30rem;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card:hover{
+  background-color: darkgrey;
+}
+.movie-page{
+/* border: 1px solid red; */
+width: 1500px;
+height: 650px;
+margin: auto;
+overflow-y: scroll;
+}
+img{
+  height: 20rem;
+}
+/* a:hover h2{
+  transform: translateY(-1.5rem); */
+  /* display: inline-block; */
+/* } */
+/* a:hover img{
+  transform: scale(1.1);
+} */
+
+.single-movie{
+  background-color: grey;
+  border: 1px solid red;
+  text-align: left;
+  /* width: 30rem; */
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+.movie-section{
+  background-color: burlywood;
+  border: 1px solid red;
+  width: 35rem;
+  margin: auto;
+  margin-top: 40px;
+  text-align: left;
+  /* align-items: center; */
+  /* justify-content: center; */
+
+
+}
+.movie-card{
+  display: flex;
+}
+.movie-card figure{
+  margin: 3px;
+}
+.movie-card figure img{
+  border: 1px solid red;
+}
+.card-content{
+  margin: 25px;
+}
+a{
+  width: 100px;
+}
+.back-btn{
+  background-color: rgb(47, 137, 255);
+  color: white;
+  padding: 8px;
+ 
+}
+.title-name{
+  font-size:large;
+  font-weight: bold;
+}
+.like{
+  cursor: pointer;
+  margin: 5px;
+}
